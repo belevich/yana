@@ -35,6 +35,22 @@
       {
         "src": "macro/macro_3.jpg",
         "text": "Macro 3"
+      },
+      {
+        "src": "macro/macro_4.jpg",
+        "text": "Macro 4"
+      },
+      {
+        "src": "macro/macro_5.jpg",
+        "text": "Macro 5"
+      },
+      {
+        "src": "macro/macro_6.jpg",
+        "text": "Macro 6"
+      },
+      {
+        "src": "macro/macro_7.jpg",
+        "text": "Macro 7"
       }
     ]
   }
