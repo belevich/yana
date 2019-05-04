@@ -47,12 +47,17 @@
         box-shadow: 0 -2px 0 #fff inset;
       }
       .photo {
+        opacity: 0;
         display: flex;
         flex-direction: column;
         flex: 1;
         justify-content: center;
         align-items: center;
         max-width: 1000px;
+        transition: opacity 0.2s linear;
+      }
+      .photo-loaded {
+        opacity: 1;
       }
       .photo__img {
         display: block;
@@ -113,7 +118,8 @@
         const data = await response.json()
         const locationHashRegexp = /^#\w+-\d+$/
 
-        const $photo = document.querySelector('.photo__img')
+        const $photo = document.querySelector('.photo')
+        const $img = document.querySelector('.photo__img')
         const $text = document.querySelector('.photo__text')
         const $info = document.querySelector('.pagination__info')
         const $prev = document.querySelector('.pagination__prev')
@@ -134,8 +140,14 @@
           index = Number(hashIndex)
           max = data.photos[category].length
 
-          $photo.src = data.photos[category][index - 1].src
-          $text.innerText = data.photos[category][index - 1].text
+          $img.addEventListener('load', () => {
+            $text.innerText = data.photos[category][index - 1].text
+            $photo.classList.add('photo-loaded')
+          })
+
+          $photo.classList.remove('photo-loaded')
+
+          $img.src = data.photos[category][index - 1].src
           $info.innerText = `${index.toString().padStart(2, '0')} / ${max.toString().padStart(2, '0')}`
           $prev.href = `#${category}-${index === 1 ? max : index - 1}`
           $next.href = `#${category}-${index === max ? 1 : index + 1}`
