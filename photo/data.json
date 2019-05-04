@@ -7,7 +7,7 @@
         "text": "Landscape 1"
       },
       {
-        "src": "landscapes/landscape_Stockholm_2.jpg",
+        "src": "landscapes/landscape_Stockholm_5.jpg",
         "text": "Landscape 2"
       },
       {
@@ -17,6 +17,10 @@
       {
         "src": "landscapes/landscape_Stockholm_4.jpg",
         "text": "Landscape 4"
+      },
+      {
+        "src": "landscapes/landscape_Stockholm_2.jpg",
+        "text": "Landscape 5"
       }
     ],
     "macro": [
