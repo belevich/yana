@@ -48,17 +48,12 @@
       }
       .photo {
         position: relative;
-        opacity: 0;
         display: flex;
         flex-direction: column;
         flex: 1;
         justify-content: center;
         align-items: center;
         max-width: 1000px;
-        transition: opacity 0.2s linear 0.05s;
-      }
-      .photo-loaded {
-        opacity: 1;
       }
       .photo__loader {
         font-size: 42px;
@@ -70,11 +65,16 @@
         z-index: -1;
       }
       .photo__img {
+        opacity: 0;
         display: block;
         width: auto;
         max-width: 100%;
         height: auto;
         max-height: calc(var(--vh, 1vh) * 100 - 40px - 60px * 2 - 10px * 2);
+        transition: opacity 0.2s linear 0.05s;
+      }
+      .photo__img-loaded {
+        opacity: 1;
       }
       .photo__text {
         font-size: 14px;
@@ -129,7 +129,6 @@
         const data = await response.json()
         const locationHashRegexp = /^#\w+-\d+$/
 
-        const $photo = document.querySelector('.photo')
         const $img = document.querySelector('.photo__img')
         const $text = document.querySelector('.photo__text')
         const $info = document.querySelector('.pagination__info')
@@ -153,10 +152,10 @@
 
           $img.addEventListener('load', () => {
             $text.innerText = data.photos[category][index - 1].text
-            $photo.classList.add('photo-loaded')
+            $img.classList.add('photo__img-loaded')
           })
 
-          $photo.classList.remove('photo-loaded')
+          $img.classList.remove('photo__img-loaded')
 
           $img.src = data.photos[category][index - 1].src
           $info.innerText = `${index.toString().padStart(2, '0')} / ${max.toString().padStart(2, '0')}`
