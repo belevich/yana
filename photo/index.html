@@ -157,7 +157,6 @@
 
           $img.classList.remove('photo__img-loaded')
 
-          $text.innerText = ''
           $img.src = data.photos[category][index - 1].src
           $info.innerText = `${index.toString().padStart(2, '0')} / ${max.toString().padStart(2, '0')}`
           $prev.href = `#${category}-${index === 1 ? max : index - 1}`
