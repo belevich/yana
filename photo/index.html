@@ -77,6 +77,7 @@
         opacity: 1;
       }
       .photo__text {
+        opacity: 0;
         font-size: 14px;
         text-align: center;
         line-height: 40px;
@@ -85,6 +86,10 @@
         width: 100%;
         max-width: calc(var(--vw, 1vw) * 100);
         text-overflow: ellipsis;
+        transition: opacity 0.2s linear 0.05s;
+      }
+      .photo__text-loaded {
+        opacity: 1;
       }
       .pagination {
         display: flex;
@@ -108,8 +113,8 @@
     <ul class="nav"></ul>
 
     <div class="photo">
-      <img class="photo__img"/>
       <span class="photo__loader">&#9676;</span>
+      <img class="photo__img"/>
       <span class="photo__text"></span>
     </div>
 
@@ -152,10 +157,13 @@
 
           $img.addEventListener('load', () => {
             $text.innerText = data.photos[category][index - 1].text
+
             $img.classList.add('photo__img-loaded')
+            $text.classList.add('photo__text-loaded')
           })
 
           $img.classList.remove('photo__img-loaded')
+          $text.classList.remove('photo__text-loaded')
 
           $img.src = data.photos[category][index - 1].src
           $info.innerText = `${index.toString().padStart(2, '0')} / ${max.toString().padStart(2, '0')}`
