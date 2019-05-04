@@ -4,53 +4,53 @@
     "landscapes": [
       {
         "src": "landscapes/landscape_Stockholm_1.jpg",
-        "text": "Landscape 1"
+        "text": "Stockholm sunset"
       },
       {
         "src": "landscapes/landscape_Stockholm_5.jpg",
-        "text": "Landscape 2"
+        "text": "Stockholm sunset"
       },
       {
         "src": "landscapes/landscape_Stockholm_3.jpg",
-        "text": "Landscape 3"
+        "text": "Stockholm railways"
       },
       {
         "src": "landscapes/landscape_Stockholm_4.jpg",
-        "text": "Landscape 4"
+        "text": "winter Lidingö"
       },
       {
         "src": "landscapes/landscape_Stockholm_2.jpg",
-        "text": "Landscape 5"
+        "text": "early spring Lidingö"
       }
     ],
     "macro": [
       {
         "src": "macro/macro_1.jpg",
-        "text": "Macro 1"
+        "text": "palm leaves"
       },
       {
         "src": "macro/macro_2.jpg",
-        "text": "Macro 2"
+        "text": "fountainbush (russelia equisetiformis)"
       },
       {
         "src": "macro/macro_3.jpg",
-        "text": "Macro 3"
+        "text": "hoarfrost on grass"
       },
       {
         "src": "macro/macro_4.jpg",
-        "text": "Macro 4"
+        "text": "hoarfrost on grass"
       },
       {
         "src": "macro/macro_5.jpg",
-        "text": "Macro 5"
+        "text": "autumn viburnum berries"
       },
       {
         "src": "macro/macro_6.jpg",
-        "text": "Macro 6"
+        "text": "fern with hoarfrost"
       },
       {
         "src": "macro/macro_7.jpg",
-        "text": "Macro 7"
+        "text": "autumn hydrangea"
       }
     ]
   }
