@@ -1,0 +1,183 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Yana Belevich</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <style>
+      body {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        font-size: 16px;
+        color: #fff;
+        background-color: #000;
+        margin: 0;
+        width: calc(var(--vw, 1vw) * 100);
+        height: calc(var(--vh, 1vh) * 100);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .link {
+        cursor: pointer;
+        display: block;
+        line-height: 60px;
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.2s ease-in-out;
+      }
+      .link:hover {
+        background-color: #222;
+      }
+      .nav {
+        display: flex;
+        list-style: none;
+        height: 60px;
+        flex-shrink: 0;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+      }
+      .nav__link {
+        padding: 0 20px;
+      }
+      .nav__link-active {
+        box-shadow: 0 -2px 0 #fff inset;
+      }
+      .photo {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+      }
+      .photo__img {
+        display: block;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: calc(var(--vh, 1vh) * 100 - 40px - 60px * 2 - 10px * 2);
+      }
+      .photo__text {
+        font-size: 14px;
+        text-align: center;
+        line-height: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+        max-width: calc(var(--vw, 1vw) * 100);
+        text-overflow: ellipsis;
+      }
+      .pagination {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex-shrink: 0;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .pagination__info {
+        flex-shrink: 0;
+        padding: 0 20px;
+      }
+      .pagination__link {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="nav"></ul>
+
+    <div class="photo">
+      <img class="photo__img"/>
+      <span class="photo__text"></span>
+    </div>
+
+    <ul class="pagination">
+      <li>
+        <a class="link pagination__link pagination__prev">prev</a>
+      </li>
+      <li class="pagination__info"></li>
+      <li>
+        <a class="link pagination__link pagination__next">next</a>
+      </li>
+    </ul>
+
+    <script>
+      (async () => {
+        const response = await fetch('./data.json')
+        const data = await response.json()
+        const locationHashRegexp = /^#\w+-\d+$/
+
+        const $photo = document.querySelector('.photo__img')
+        const $text = document.querySelector('.photo__text')
+        const $info = document.querySelector('.pagination__info')
+        const $prev = document.querySelector('.pagination__prev')
+        const $next = document.querySelector('.pagination__next')
+
+        let category = ''
+        let index = 0
+        let max = 0
+
+        const onChange = () => {
+          if (!locationHashRegexp.test(window.location.hash)) {
+            window.location.hash = `#${data.categories[0]}-1`
+          }
+
+          const [hashCategory, hashIndex] = window.location.hash.substr(1).split('-')
+
+          category = hashCategory
+          index = Number(hashIndex)
+          max = data.photos[category].length
+
+          $photo.src = data.photos[category][index - 1].src
+          $text.innerText = data.photos[category][index - 1].text
+          $info.innerText = `${index.toString().padStart(2, '0')} / ${max.toString().padStart(2, '0')}`
+          $prev.href = `#${category}-${index === 1 ? max : index - 1}`
+          $next.href = `#${category}-${index === max ? 1 : index + 1}`
+
+          const $navCategories = document.querySelectorAll('.nav__link')
+
+          for (const $navCategory of $navCategories) {
+            $navCategory.classList.remove('nav__link-active')
+
+            if ($navCategory.classList.contains(`nav__category-${category}`)) {
+              $navCategory.classList.add('nav__link-active')
+            }
+          }
+        }
+
+        const onResize = () => {
+          document.documentElement.style.setProperty('--vw', `${window.innerWidth * 0.01}px`);
+          document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
+        }
+
+        window.addEventListener('hashchange', onChange)
+        window.addEventListener('resize', onResize)
+
+        const $fragment = new DocumentFragment()
+        
+        for (const category of data.categories) {
+          const $category = document.createElement('li')
+          const $categoryLink = document.createElement('a')
+
+          $categoryLink.className = `link nav__link nav__category-${category}`
+          $categoryLink.href = `#${category}-1`
+          $categoryLink.innerText = category
+
+          $category.appendChild($categoryLink)
+          $fragment.appendChild($category)
+        }
+
+        document.querySelector('.nav').appendChild($fragment)
+
+        onChange()
+        onResize()
+      })()
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "categories": ["landscapes", "macro"],
+  "photos": {
+    "landscapes": [
+      {
+        "src": "landscapes/landscape_Stockholm_1.jpg",
+        "text": "Landscape 1"
+      },
+      {
+        "src": "landscapes/landscape_Stockholm_2.jpg",
+        "text": "Landscape 2"
+      },
+      {
+        "src": "landscapes/landscape_Stockholm_3.jpg",
+        "text": "Landscape 3"
+      },
+      {
+        "src": "landscapes/landscape_Stockholm_4.jpg",
+        "text": "Landscape 4"
+      }
+    ],
+    "macro": [
+      {
+        "src": "macro/macro_1.jpg",
+        "text": "Macro 1"
+      },
+      {
+        "src": "macro/macro_2.jpg",
+        "text": "Macro 2"
+      },
+      {
+        "src": "macro/macro_3.jpg",
+        "text": "Macro 3"
+      }
+    ]
+  }
+}
