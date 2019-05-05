@@ -4,23 +4,39 @@
     "landscapes": [
       {
         "src": "landscapes/landscape_Stockholm_1.jpg",
-        "text": "Stockholm sunset"
+        "text": "Stockholm sunset, Sweden"
       },
       {
         "src": "landscapes/landscape_Stockholm_5.jpg",
-        "text": "Stockholm sunset"
+        "text": "Stockholm sunset, Sweden"
+      },
+      {
+        "src": "landscapes/landscape_Vietnam_7.jpg",
+        "text": "Phú Quốc sunset, Vietnam"
       },
       {
         "src": "landscapes/landscape_Stockholm_3.jpg",
-        "text": "Stockholm railways"
+        "text": "Stockholm railways, Sweden"
+      },
+      {
+        "src": "landscapes/landscape_Minsk_9.jpg",
+        "text": "Minsk, Belarus"
       },
       {
         "src": "landscapes/landscape_Stockholm_4.jpg",
-        "text": "winter Lidingö"
+        "text": "winter Lidingö, Sweden"
       },
       {
         "src": "landscapes/landscape_Stockholm_2.jpg",
-        "text": "early spring Lidingö"
+        "text": "early spring Lidingö, Sweden"
+      },
+      {
+        "src": "landscapes/landscape_Vietnam_6.jpg",
+        "text": "Phú Quốc island, Vietnam"
+      },
+      {
+        "src": "landscapes/landscape_Vietnam_8.jpg",
+        "text": "Hội An city, Vietnam"
       }
     ],
     "macro": [
