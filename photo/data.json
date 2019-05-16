@@ -45,12 +45,20 @@
         "text": "palm leaves"
       },
       {
+        "src": "macro/macro_11.jpg",
+        "text": "spring grass"
+      },
+      {
         "src": "macro/macro_8.jpg",
         "text": "clerodendrum"
       },
       {
         "src": "macro/macro_2.jpg",
         "text": "fountainbush (russelia equisetiformis)"
+      },
+      {
+        "src": "macro/macro_10.jpg",
+        "text": "chrysanthemum"
       },
       {
         "src": "macro/macro_3.jpg",
@@ -71,6 +79,10 @@
       {
         "src": "macro/macro_7.jpg",
         "text": "autumn hydrangea"
+      },
+      {
+        "src": "macro/macro_9.jpg",
+        "text": "bird cherry"
       }
     ]
   }
