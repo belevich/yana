@@ -168,7 +168,7 @@
           $img.classList.remove('photo__img-loaded')
           $text.classList.remove('photo__text-loaded')
 
-          $img.src = data.photos[category][index - 1].src
+          $img.src = `https://cdn.staticaly.com/gh/belevich/yana/master/photo/${data.photos[category][index - 1].src}`
           $info.innerText = `${index.toString().padStart(2, '0')} / ${max.toString().padStart(2, '0')}`
           $prev.href = `#${category}-${index === 1 ? max : index - 1}`
           $next.href = `#${category}-${index === max ? 1 : index + 1}`
