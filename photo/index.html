@@ -70,7 +70,7 @@
         width: auto;
         max-width: 100%;
         height: auto;
-        max-height: calc(var(--vh, 1vh) * 100 - 40px - 60px * 2 - 10px * 2);
+        max-height: calc(var(--vh, 1vh) * 100 - 40px * 2 - 60px * 2 - 10px * 2);
         transition: opacity 0.2s linear 0.05s;
         pointer-events: none;
       }
@@ -78,6 +78,7 @@
         opacity: 1;
       }
       .photo__text {
+        margin: 0;
         opacity: 0;
         font-size: 14px;
         text-align: center;
@@ -108,6 +109,16 @@
       .pagination__link {
         width: 100px;
       }
+      .license {
+        color: #777;
+        margin: 0;
+        font-size: 12px;
+        line-height: 40px;
+      }
+      .license a {
+        color: #777;
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
@@ -116,7 +127,7 @@
     <div class="photo">
       <span class="photo__loader">&#9676;</span>
       <img class="photo__img"/>
-      <span class="photo__text"></span>
+      <p class="photo__text"></p>
     </div>
 
     <ul class="pagination">
@@ -128,6 +139,10 @@
         <a class="link pagination__link pagination__next">next</a>
       </li>
     </ul>
+
+    <p class="license">
+      &copy; 2019–present by Yana Broshkova-Belevych under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0 license</a>
+    </p>
 
     <script>
       (async () => {
