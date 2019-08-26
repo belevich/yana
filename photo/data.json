@@ -1,5 +1,5 @@
 {
-  "categories": ["landscapes", "macro"],
+  "categories": ["landscapes", "macro", "portraits"],
   "photos": {
     "landscapes": [
       {
@@ -87,6 +87,32 @@
       {
         "src": "macro/macro_9.jpg",
         "text": "bird cherry"
+      }
+    ],
+    "portraits": [
+      {
+        "src": "portraits/portrait_1.jpg",
+        "text": "Simona"
+      },
+      {
+        "src": "portraits/portrait_2.jpg",
+        "text": "Simona"
+      },
+      {
+        "src": "portraits/portrait_6.jpg",
+        "text": "Kir"
+      },
+      {
+        "src": "portraits/portrait_5.jpg",
+        "text": "Lana"
+      },
+      {
+        "src": "portraits/portrait_4.jpg",
+        "text": "Lana"
+      },
+      {
+        "src": "portraits/portrait_3.jpg",
+        "text": "Lana"
       }
     ]
   }
