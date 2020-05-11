@@ -9,24 +9,9 @@
     <meta name="no-email-collection" content="http://www.unspam.com/noemailcollection/"/>
     <style>
       html {
-        font-size: 16px;
+        font-size: calc(24px + (48 - 24) * ((100vw - 300px) / (1600 - 300)));
         line-height: 200%;
         height: 100%;
-      }
-      @media screen and (min-width: 320px) {
-        html {
-          font-size: calc(32px + 6 * ((100vw - 320px) / 640));
-        }
-      }
-      @media screen and (min-width: 1000px) {
-        html {
-          font-size: 48px;
-        }
-      }
-      @media screen and (orientation: landscape) and (max-height: 640px) {
-        html {
-          font-size: 22px;
-        }
       }
       body {
         background-color: #fff;
@@ -44,7 +29,7 @@
         text-align: center;
       }
       a {
-        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        font-family: "SF Mono", Monaco, Menlo, Consolas, "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", Courier, monospace;
         color: #000;
         text-decoration: none;
         display: block;
