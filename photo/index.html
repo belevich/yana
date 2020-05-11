@@ -174,10 +174,10 @@
           $img.addEventListener('load', () => {
             $text.innerText = data.photos[category][index - 1].text
 
-            setTimeout(() => {
+            requestAnimationFrame(() => {
               $img.classList.add('photo__img-loaded')
               $text.classList.add('photo__text-loaded')
-            }, 0)
+            })
           })
 
           $img.classList.remove('photo__img-loaded')
