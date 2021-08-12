@@ -107,36 +107,36 @@
     ],
     "portraits": [
       {
-        "src": "portraits/portrait_1.jpg",
-        "text": "Simona"
+        "src": "portraits/Ira_portrait_3.jpg",
+        "text": "Ira"
       },
       {
-        "src": "portraits/portrait_2.jpg",
-        "text": "Simona"
+        "src": "portraits/Yana_portrait_1_3.jpg",
+        "text": "Yana"
       },
       {
-        "src": "portraits/portrait_7.jpg",
+        "src": "portraits/Ayna_portrait_2.jpg",
         "text": "Ayna"
       },
       {
-        "src": "portraits/portrait_6.jpg",
-        "text": "Kir"
+        "src": "portraits/Ayna_portrait_1.jpg",
+        "text": "Ayna"
       },
       {
         "src": "portraits/portrait_5.jpg",
         "text": "Lana"
       },
       {
-        "src": "portraits/portrait_8.jpg",
-        "text": "Ayna"
+        "src": "portraits/Kir_portrait_4b.jpg",
+        "text": "Kir"
       },
       {
-        "src": "portraits/portrait_4.jpg",
-        "text": "Lana"
+        "src": "portraits/Simona_portrait_4_1.jpg",
+        "text": "Simona"
       },
       {
-        "src": "portraits/portrait_3.jpg",
-        "text": "Lana"
+        "src": "portraits/Simona_portrait_1_1.jpg",
+        "text": "Simona"
       }
     ]
   }
