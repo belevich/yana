@@ -45,12 +45,12 @@
     ],
     "macro": [
       {
-        "src": "macro/macro_1.jpg",
-        "text": "palm leaves"
+        "src": "macro/summer_site.jpg",
+        "text": "summer"
       },
       {
-        "src": "macro/macro_11.jpg",
-        "text": "spring grass"
+        "src": "macro/macro_1.jpg",
+        "text": "palm leaves"
       },
       {
         "src": "macro/poppy_site.jpg",
@@ -81,10 +81,6 @@
         "text": "hoarfrost on grass"
       },
       {
-        "src": "macro/macro_15.jpg",
-        "text": "forest flower"
-      },
-      {
         "src": "macro/macro_5.jpg",
         "text": "autumn viburnum berries"
       },
@@ -97,12 +93,8 @@
         "text": "autumn hydrangea"
       },
       {
-        "src": "macro/macro_9.jpg",
-        "text": "bird cherry"
-      },
-      {
-        "src": "macro/macro_13.jpg",
-        "text": "heather"
+        "src": "macro/rose_site.jpg",
+        "text": "rose"
       }
     ],
     "portraits": [
