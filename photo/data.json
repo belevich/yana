@@ -1,7 +1,7 @@
 {
-  "categories": ["portraits", "fine art", "macro"],
+  "categories": ["portraits", "fine_art", "macro"],
   "photos": {
-    "fine art": [
+    "fine_art": [
       {
         "src": "fine_art/Ayna_portrait_5.jpg",
         "text": "Sunshine Flower"
