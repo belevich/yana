@@ -1,46 +1,30 @@
 {
-  "categories": ["landscapes", "macro", "portraits"],
+  "categories": ["portraits", "fine art", "macro"],
   "photos": {
-    "landscapes": [
+    "fine art": [
       {
-        "src": "landscapes/landscape_Stockholm_1.jpg",
-        "text": "Stockholm sunset, Sweden"
+        "src": "fine_art/Ayna_portrait_5.jpg",
+        "text": "Sunshine Flower"
       },
       {
-        "src": "landscapes/landscape_Stockholm_5.jpg",
-        "text": "Stockholm sunset, Sweden"
+        "src": "fine_art/Ayna_portrait_7.jpg",
+        "text": "Marshmallow Dreams"
       },
       {
-        "src": "landscapes/landscape_Stockholm_10.jpg",
-        "text": "Gamla stan view, Stockholm, Sweden"
+        "src": "fine_art/Ayna_portrait_3.jpg",
+        "text": "Forest Princess"
       },
       {
-        "src": "landscapes/landscape_Vietnam_7.jpg",
-        "text": "Phú Quốc sunset, Vietnam"
+        "src": "fine_art/Ayna_portrait_2.jpg",
+        "text": "Russian Fairy Tale"
       },
       {
-        "src": "landscapes/landscape_Stockholm_3.jpg",
-        "text": "Stockholm railways, Sweden"
+        "src": "fine_art/Ayna_portrait_4.jpg",
+        "text": "Alenushka"
       },
       {
-        "src": "landscapes/landscape_Minsk_9.jpg",
-        "text": "Minsk, Belarus"
-      },
-      {
-        "src": "landscapes/landscape_Stockholm_4.jpg",
-        "text": "winter Lidingö, Sweden"
-      },
-      {
-        "src": "landscapes/landscape_Stockholm_2.jpg",
-        "text": "early spring Lidingö, Sweden"
-      },
-      {
-        "src": "landscapes/landscape_Vietnam_6.jpg",
-        "text": "Phú Quốc island, Vietnam"
-      },
-      {
-        "src": "landscapes/landscape_Vietnam_8.jpg",
-        "text": "Hội An, Vietnam"
+        "src": "fine_art/Lena_1.jpg",
+        "text": "Paradise Bird"
       }
     ],
     "macro": [
