@@ -107,15 +107,15 @@
         "text": "Ayna"
       },
       {
+        "src": "portraits/Kir_portrait_1.jpg",
+        "text": "Kir"
+      },
+      {
         "src": "portraits/Kir_portrait_4b.jpg",
         "text": "Kir"
       },
       {
         "src": "portraits/Simona_portrait_4_1.jpg",
-        "text": "Simona"
-      },
-      {
-        "src": "portraits/Simona_portrait_1_1.jpg",
         "text": "Simona"
       }
     ]
