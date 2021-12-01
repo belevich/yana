@@ -91,14 +91,6 @@
     ],
     "portraits": [
       {
-        "src": "portraits/Kir_portrait_color.jpg",
-        "text": "Kir"
-      },
-      {
-        "src": "portraits/Ira_portrait_3.jpg",
-        "text": "Ira"
-      },
-      {
         "src": "portraits/Yana_portrait_1_3.jpg",
         "text": "Yana"
       },
@@ -107,12 +99,24 @@
         "text": "Ira"
       },
       {
-        "src": "portraits/Ayna_portrait_1.jpg",
-        "text": "Ayna"
+        "src": "portraits/Olya_1.jpg",
+        "text": "Olya"
       },
       {
         "src": "portraits/Brenda_1.jpg",
         "text": "Brenda"
+      },
+      {
+        "src": "portraits/Kir_portrait_color.jpg",
+        "text": "Kir"
+      },
+      {
+        "src": "portraits/Ira_portrait_3.jpg",
+        "text": "Ira"
+      },
+      {
+        "src": "portraits/Ayna_portrait_1.jpg",
+        "text": "Ayna"
       },
       {
         "src": "portraits/Kir_portrait_1.jpg",
@@ -121,10 +125,6 @@
       {
         "src": "portraits/Alina_portrait_1.jpg",
         "text": "Alina"
-      },
-      {
-        "src": "portraits/Kir_portrait_4b.jpg",
-        "text": "Kir"
       }
     ]
   }
