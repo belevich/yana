@@ -3,32 +3,36 @@
   "photos": {
     "fine_art": [
       {
+        "src": "fine_art/Ayna_art_1_1.jpg",
+        "text": "Candy Dreams"
+      },
+      {
         "src": "fine_art/Ayna_portrait_5.jpg",
         "text": "Sunshine Flower"
       },
       {
-        "src": "fine_art/Ayna_portrait_7.jpg",
-        "text": "Marshmallow Dreams"
+        "src": "fine_art/Ayna_art_3_1.jpg",
+        "text": "Magical Dream"
+      },
+      {
+        "src": "fine_art/Ayna_art_2_1.jpg",
+        "text": "***"
       },
       {
         "src": "fine_art/Ayna_portrait_3.jpg",
         "text": "Forest Princess"
       },
       {
-        "src": "fine_art/Ayna_portrait_2.jpg",
-        "text": "Russian Fairy Tale"
+        "src": "fine_art/Ayna_portrait_art_4-5.jpg",
+        "text": "Retro"
       },
       {
-        "src": "fine_art/Ayna_portrait_4.jpg",
-        "text": "Alenushka"
+        "src": "fine_art/Ayna_portrait_color.jpg",
+        "text": "Lace magic"
       },
       {
         "src": "fine_art/Lena_1.jpg",
         "text": "Paradise Bird"
-      },
-      {
-        "src": "fine_art/Lena_2_logo.jpg",
-        "text": "Tropic Vibes"
       }
     ],
     "macro": [
