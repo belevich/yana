@@ -28,7 +28,7 @@
       },
       {
         "src": "fine_art/Ayna_portrait_color.jpg",
-        "text": "Lace magic"
+        "text": "Lace Magic"
       },
       {
         "src": "fine_art/Lena_1.jpg",
@@ -91,6 +91,10 @@
     ],
     "portraits": [
       {
+        "src": "portraits/Kir_portrait_color.jpg",
+        "text": "Kir"
+      },
+      {
         "src": "portraits/Ira_portrait_3.jpg",
         "text": "Ira"
       },
@@ -99,28 +103,28 @@
         "text": "Yana"
       },
       {
-        "src": "portraits/Alina_portrait_1.jpg",
-        "text": "Alina"
-      },
-      {
-        "src": "portraits/Ayna_portrait_2.jpg",
-        "text": "Ayna"
+        "src": "portraits/Ira_4.jpg",
+        "text": "Ira"
       },
       {
         "src": "portraits/Ayna_portrait_1.jpg",
         "text": "Ayna"
       },
       {
+        "src": "portraits/Brenda_1.jpg",
+        "text": "Brenda"
+      },
+      {
         "src": "portraits/Kir_portrait_1.jpg",
         "text": "Kir"
       },
       {
-        "src": "portraits/Kir_portrait_4b.jpg",
-        "text": "Kir"
+        "src": "portraits/Alina_portrait_1.jpg",
+        "text": "Alina"
       },
       {
-        "src": "portraits/Simona_portrait_4_1.jpg",
-        "text": "Simona"
+        "src": "portraits/Kir_portrait_4b.jpg",
+        "text": "Kir"
       }
     ]
   }
