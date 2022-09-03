@@ -12,11 +12,7 @@
       },
       {
         "src": "fine_art/Ayna_orchids_portrait_2.jpg.jpg",
-        "text": "Orchid's Hug"
-      },
-      {
-        "src": "fine_art/Ayna_portrait_5.jpg",
-        "text": "Sunshine Flower"
+        "text": "Orchid Hug"
       },
       {
         "src": "fine_art/Boa_Vista_Ayna_portrait_5.jpg",
@@ -31,17 +27,25 @@
         "text": "Retro"
       },
       {
-        "src": "fine_art/Ayna_portrait_3.jpg",
-        "text": "Forest Princess"
+        "src": "fine_art/Ayna_portrait_1.jpg",
+        "text": "A Flower"
       },
       {
         "src": "fine_art/Ayna_portrait_color.jpg",
         "text": "Lace Magic"
       },
       {
-        "src": "fine_art/Lena_1.jpg",
-        "text": "Paradise Bird"
-      }
+        "src": "fine_art/Ayna_concept_portrait_1.jpg",
+        "text": "Toy Dreams "
+      },
+      {
+        "src": "fine_art/Ayna_portrait_3.jpg",
+        "text": "Forest Princess"
+      },
+      {
+        "src": "fine_art/Ayna_portrait_5.jpg",
+        "text": "Sunshine Flower"
+      },
     ],
     "macro": [
       {
