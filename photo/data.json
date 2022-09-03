@@ -107,6 +107,10 @@
         "text": "Yana"
       },
       {
+        "src": "portraits/Chon_portrait_1.jpg",
+        "text": "Chon"
+      },
+      {
         "src": "portraits/Ira_4.jpg",
         "text": "Ira"
       },
@@ -127,12 +131,16 @@
         "text": "Ira"
       },
       {
-        "src": "portraits/Ayna_portrait_1.jpg",
+        "src": "portraits/Ayna_portrait_gashaga_4.jpg",
         "text": "Ayna"
       },
       {
         "src": "portraits/Kir_portrait_1.jpg",
         "text": "Kir"
+      },
+      {
+        "src": "portraits/Andrey_3.jpg",
+        "text": "Andrey"
       },
       {
         "src": "portraits/Kir_portrait_classic.jpg",
