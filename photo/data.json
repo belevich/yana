@@ -103,6 +103,10 @@
     ],
     "portraits": [
       {
+        "src": "portraits/Kir_october_portrait_1.jpg",
+        "text": "Kir"
+      },
+      {
         "src": "portraits/Yana_portrait_1_3.jpg",
         "text": "Yana"
       },
