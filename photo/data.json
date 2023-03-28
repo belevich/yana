@@ -115,6 +115,10 @@
         "text": "Chon"
       },
       {
+        "src": "portraits/Kir_portrait_classic.jpg",
+        "text": "Kir"
+      },
+      {
         "src": "portraits/Ira_4.jpg",
         "text": "Ira"
       },
@@ -145,10 +149,6 @@
       {
         "src": "portraits/Andrey_3.jpg",
         "text": "Andrey"
-      },
-      {
-        "src": "portraits/Kir_portrait_classic.jpg",
-        "text": "Kir"
       },
       {
         "src": "portraits/Alina_portrait_1.jpg",
